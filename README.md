@@ -17,7 +17,7 @@ Next, download the reveal.js package to a directory of your choice.  I am using 
 ```
 git clone https://github.com/hakimel/reveal.js.git
 ```
-![Image2](images/image7.png)
+![Image2](images/image2.png)
 <br>
 <br>
 
@@ -26,7 +26,7 @@ Next you will need to install npm dependencies.<br>
 cd reveal.js
 npm install
 ```
-![Image3](images/image8.png)
+![Image3](images/image3.png)
 <br>
 <br>
 
