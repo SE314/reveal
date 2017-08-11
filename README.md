@@ -4,7 +4,7 @@ This tutorial was put together to provide a quick overview of the install and la
 # Installing Node.js and Reveal.js
 For the installation of Node.js, Reveal.js, and associated npm packages, we will be following instructions provided by hakimel in this reveal.js tutorial https://github.com/hakimel/reveal.js#markdown.<br>
 <br>
-To start, we need to install Node.js. Brows to https://nodejs.org/en/, download and install the appropriate version.
+To start, we need to install Node.js. Brows to https://nodejs.org/en/, download and install the appropriate version node.
 <br>
 <br>
 Installing Node.js:
@@ -39,15 +39,15 @@ npm start -- --port=8001
 ![Image4](images/image4.png)
 <br>
 <br>
-Now, to create or upload custom presentations for viewing.  To do this, simply create or copy an appropriate html file into the node.js directory.  In this example, I will pull the contents from: intro-to-automation.html from https://github.com/se314/rST/intro-to-automation/intro-to-automation.html.
+Now, to create or upload custom presentations for viewing.  To do this, simply create or copy an appropriate html file into the node.js directory.  In this example, I will pull the contents from: intro-to-automation.html from https://github.com/SE314/reveal/tree/master/intro-to-automation.
 ```
 vi intro-to-automation.html
 ```
-Copy contents from intro-to-automation.html and save file.
+Copy contents from intro-to-automation.html and save file.<br><br>
 ![Image5](images/image5.png)
 <br>
 <br>
-You will also need to copy the image repository found in "https://github.com/se314/rST/intro-to-automation" to the node.js directory.<br><br>
+You will also need to copy the image repository found in https://github.com/SE314/reveal/tree/master/intro-to-automation to the node.js directory.<br><br>
 ![Image6](images/image6.png)
 ![Image7](images/image7.png)
 <br>
@@ -57,3 +57,6 @@ You can now view the intro-to-automation presentation by browsing to http://loca
 http://localhost:8000/intro-to-automation.html
 ```
 ![Image1](images/image8.png)
+<br>
+<br>
+Changes and additions to existing or new presentations will automatically be identified and available to view without needing to re-launch any components.
