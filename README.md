@@ -47,7 +47,7 @@ Copy contents from intro-to-automation.html and save file.
 ![Image5](images/image5.png)
 <br>
 <br>
-You will also need to copy the image repository found in https://github.com/se314/rST/intro-to-automation/ to the node.js directory.
+You will also need to copy the image repository found in "https://github.com/se314/rST/intro-to-automation" to the node.js directory.<br><br>
 ![Image6](images/image6.png)
 ![Image7](images/image7.png)
 <br>
