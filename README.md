@@ -15,7 +15,7 @@ Next, download the reveal.js package to a directory of your choice.  I am using 
 ```
 git clone https://github.com/hakimel/reveal.js.git
 ```
-<img src="images/image2.png" height="125">
+![Image2](images/image2.png)
 <br>
 <br>
 Next you will need to install npm dependencies.<br>
@@ -23,7 +23,7 @@ Next you will need to install npm dependencies.<br>
 cd reveal.js
 npm install
 ```
-<img src="images/image3.png" height="125">
+![Image3](images/image3.png)
 <br>
 <br>
 Node.js, Reveal.js and  npm dependencies should now be installed.  At this point you can launch npn and view the default reveal presentation.
@@ -36,7 +36,7 @@ By default this will launch into port 8000.  Alternatively, you can specify the 
 ```
 npm start -- --port=8001
 ```
-<img src="images/image4.png" height="175">
+![Image4](images/image4.png)
 <br>
 <br>
 Now, to create or upload custom presentations for viewing.  To do this, simply create or copy an appropriate html file into the node.js directory.  In this example, I will pull the contents from: intro-to-automation.html from https://github.com/se314/rST/intro-to-automation/intro-to-automation.html.
@@ -44,12 +44,12 @@ Now, to create or upload custom presentations for viewing.  To do this, simply c
 vi intro-to-automation.html
 ```
 Copy contents from intro-to-automation.html and save file.
-<img src="images/image5.png" height="125">
+![Image5](images/image5.png)
 <br>
 <br>
 You will also need to copy the image repository found in https://github.com/se314/rST/intro-to-automation/ to the node.js directory.
-<img src="images/image6.png" height="325">
-<img src="images/image7.png" height="125">
+![Image6](images/image6.png)
+![Image7](images/image7.png)
 <br>
 <br>
 You can now view the intro-to-automation presentation by browsing to http://localhost:8000/intro-to-automation.html
